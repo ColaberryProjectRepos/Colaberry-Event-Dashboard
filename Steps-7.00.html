@@ -1,0 +1,96 @@
+
+Building Dashboard
+7
+<p class="MsoListParagraph" style="margin-bottom:9.35pt;mso-add-space:auto;
+text-indent:-.25in;line-height:normal;mso-list:l1 level1 lfo2"><!--[if !supportLists]--><span style="font-size:12.0pt;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;
+mso-bidi-font-weight:bold">1.<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span style="font-size:12.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold">Step by Step
+Instruction to create Power BI Project from the scratch by connecting to SQL
+Server&nbsp;</span><span style="font-size: 12pt;">&nbsp;</span></p>
+
+<ul type="disc">
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list .5in"><span style="font-size:12.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:
+     bold">Open SQL Server Management Studio, and make sure it is
+     running&nbsp;&nbsp;<o:p></o:p></span></li>
+ <li class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list .5in"><span style="font-size:12.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:
+     bold">Download Power BI desktop to you machine.</span></li></ul><p style="line-height: normal;"><span style="font-size:12.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:
+     bold"><br></span></p><p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;; color: rgb(118, 118, 118);">1. Open SQL
+Management&nbsp;Server Studio&nbsp;</span><span style="font-size:12.0pt;
+font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#767676"><o:p></o:p></span></p><ul type="disc">
+ <li class="MsoNormal" style="color: rgb(118, 118, 118); margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+     mso-fareast-font-family:&quot;Times New Roman&quot;">Server type&nbsp;</span><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:blue">Database Engine</span><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+     &quot;Times New Roman&quot;"><o:p></o:p></span></li>
+ <li class="MsoNormal" style="color: rgb(118, 118, 118); margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+     mso-fareast-font-family:&quot;Times New Roman&quot;">SERVER NAME&nbsp;</span><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:blue">hypv8669.hostedbyapplied.net</span><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+     &quot;Times New Roman&quot;">&nbsp;</span><span style="font-size:12.0pt;
+     font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;"><o:p></o:p></span></li>
+ <li class="MsoNormal" style="color: rgb(118, 118, 118); margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+     mso-fareast-font-family:&quot;Times New Roman&quot;">Authentication&nbsp;SQL
+     Server&nbsp;</span></li><li class="MsoNormal" style="color: rgb(118, 118, 118); margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+     mso-fareast-font-family:&quot;Times New Roman&quot;">User name&nbsp;</span><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+     &quot;Times New Roman&quot;;color:blue">ColaberryDB</span><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+     &quot;Times New Roman&quot;"><o:p></o:p></span></li>
+ <li class="MsoNormal" style="color: rgb(118, 118, 118); margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+     mso-fareast-font-family:&quot;Times New Roman&quot;">Password&nbsp;</span><span style="font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;; color: blue;">Iam4Colaberry!</span><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+     &quot;Times New Roman&quot;"><o:p></o:p></span></li>
+</ul><p class="MsoNormal" style="margin-bottom: 7.5pt; margin-left: 0.5in; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:#767676;mso-no-proof:yes"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_95" o:spid="_x0000_i1025" type="#_x0000_t75"
+ style='width:366.75pt;height:246.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:\Users\Janani\AppData\Local\Temp\msohtmlclip1\01\clip_image001.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><!--[endif]--></span></b><span style="font-size:12.0pt;
+font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+color:#767676"><o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:#767676">&nbsp;</span><img src= "https://app.colaberry.com/uploads/ProjectStepsImages/873/7/1.jpg" /></p><p style="line-height: normal;">
+
+
+
+
+
+
+
+
+
+</p><p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:#767676">Then connect it&nbsp;</span></b><span style="font-size:12.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;;color:#767676"><o:p></o:p></span></p><ul type="disc">
+</ul>
+
+<p class="MsoNormal" style="margin-bottom:9.35pt;line-height:normal"><span style="font-size:12.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:bold">How to
+Download Power BI Desktop&nbsp;<o:p></o:p></span></p>
+
+<span style="font-size:11.0pt;line-height:107%;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA"><a href="https://powerbi.microsoft.com/en-us/" target="_blank"><span style="font-size: 12pt; line-height: 107%; color: windowtext;">https://powerbi.microsoft.com/en-us/</span></a></span>
+
